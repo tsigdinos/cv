@@ -6,57 +6,31 @@
     <meta charset="utf-8">
     <title>Image and Text Wrapping</title>
 <style>
+    table {
+        border-spacing: 20px;
+    }
 
-table {
+    img {
+        float: left;
+        margin-right: 20px;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
 
-border-spacing: 20px;
+    p {
+        margin-top: 0;
+    }
 
-}
-
-img {
-
-float: left;
-
-margin-right: 20px;
-
-width: 33.33%; /* Make the image 3 times smaller on computers */
-
-max-width: 33.33%; /* Make the image 3 times smaller on computers */
-
-height: auto;
-
-}
-
-p {
-
-margin-top: 0;
-
-clear: both;
-
-}
-
-@media only screen and (max-width: 600px) {
-
-img {
-
-width: 100%; /* Make the image 3 times bigger on phones */
-
-max-width: 100%; /* Make the image 3 times bigger on phones */
-
-margin: 0 auto 20px; /* Center the image on smaller screens */
-
-}
-
-td {
-
-width: 100%; /* Ensure text occupies full width under the image on phones */
-
-}
-
-}
-
+    @media only screen and (max-width: 600px) {
+        img {
+            float: none;
+            clear: both;
+            margin: 0 auto 20px; /* Center the image on smaller screens */
+            max-width: 100%;
+        }
+    }
 </style>
-    
     <title>Ioannis Tsigdinos - CV</title>
     </head>
     <link rel="stylesheet" href="css/styles.css">
