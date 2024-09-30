@@ -17,19 +17,3 @@ h1 {
 h3 {
   color: #66BFBF;
 }
-.image {
-    float: left;
-    margin-right: 20px; /* Adjust the spacing between the image and text */
-}
-
-.text {
-    clear: left;
-}
-
-@media only screen and (max-width: 600px) {
-    .image, .text {
-        float: none;
-        clear: none;
-        margin-right: 0;
-    }
-}
