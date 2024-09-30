@@ -4,6 +4,29 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <title>Image and Text Wrapping</title>
+<style>
+    table {
+        border-spacing: 20px;
+    }
+
+    img {
+        float: left;
+        margin-right: 20px; /* Adjust the spacing between the image and text */
+    }
+
+    p {
+        clear: left;
+    }
+
+    @media only screen and (max-width: 600px) {
+        img {
+            float: none;
+            clear: both;
+            margin-right: 0;
+        }
+    }
+</style>
     
     <title>Ioannis Tsigdinos - CV</title>
     </head>
