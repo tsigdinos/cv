@@ -11,19 +11,20 @@
     }
 
     img {
-        float: left;
-        margin-right: 20px; /* Adjust the spacing between the image and text */
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 100%;
+        height: auto;
     }
 
     p {
-        clear: left;
+        clear: both;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (min-width: 600px) {
         img {
-            float: none;
-            clear: both;
-            margin-right: 0;
+            float: left;
+            margin: 0 20px 20px 0;
         }
     }
 </style>
